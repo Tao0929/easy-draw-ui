@@ -19,7 +19,7 @@ jobs:
         cache: 'npm'
     - run: pwd
     - run: ls
-    - run: cd \packages
+    - run: nautilus ./packages/docs
     - run: pwd
     - run: ls
     - run: npm install
