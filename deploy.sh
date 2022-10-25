@@ -24,8 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
-vim ~/.ssh/config
-UserKnownHostsFile ~/.ssh/known_hosts
 git push -f git@github.com:Tao0929/easy-draw-ui.git master:gh-pages
 
 cd -
