@@ -1,6 +1,6 @@
 {
   "name": "easy-draw-ui",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "private": false,
   "main": "dist/easy-draw-ui.umd.min.js",
   "author": {

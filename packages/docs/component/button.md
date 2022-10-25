@@ -9,43 +9,41 @@
 ```
 
 ```
-<EdButton type="default">默认按钮</EdButton>
+<ed-button type="default">默认按钮</ed-button>
 ```
 
 ```
-<EdButton type="warning" :circle="true" >圆形按钮</EdButton>
+<ed-button type="warning" :circle="true" >圆形按钮</ed-button>
 ```
 
 ```
-<EdButton type="primary" :plain="true">主色按钮</EdButton>
+<ed-button type="primary" :plain="true">主色按钮</ed-button>
 ```
 
 ```
-<EdButton :disabled="true">禁用</EdButton>
+<ed-button :disabled="true">禁用</ed-button>
 ```
 
 ```
-<EdButton type="success" :plain="true" >成功</EdButton>
+<ed-button type="success" :plain="true" >成功</ed-button>
 ```
 
 ```
-<EdButton type="danger" :plain="true" :round="true" >圆形</EdButton>
+<ed-button type="danger" :plain="true" :round="true" >圆形</ed-button>
 ```
 
-<EdButton class="margin10" type="default">默认按钮</EdButton>
-<EdButton class="margin10" type="warning" :circle="true" >圆形按钮</EdButton>
-<EdButton class="margin10" type="primary" :plain="true">主色按钮</EdButton>
-<EdButton class="margin10" :disabled="true">禁用</EdButton>
-<EdButton class="margin10" type="success"  :plain="true" >成功</EdButton>
-<EdButton class="margin10" type="danger" :plain="true" :round="true" >危险圆形</EdButton>
-
-
+<ed-button class="margin10" type="default">默认按钮</ed-button>
+<ed-button class="margin10" type="warning" :circle="true" >圆形按钮</ed-button>
+<ed-button class="margin10" type="primary" :plain="true">主色按钮</ed-button>
+<ed-button class="margin10" :disabled="true">禁用</ed-button>
+<ed-button class="margin10" type="success"  :plain="true" >成功</ed-button>
+<ed-button class="margin10" type="danger" :plain="true" :round="true" >危险圆形</ed-button>
+    
 ## 更多...
 后续慢慢扩展 尽请期待！
 ...
 
 <script setup>
-import EdButton from '../../../packages/components/ed-button/EdButton.vue'
 </script>
 <style>
 .margin10{

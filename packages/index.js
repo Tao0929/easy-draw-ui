@@ -1,4 +1,4 @@
-import Button from './components/ed-button/EdButton.vue'
+import Button from './components/ed-button'
 
 // 存储组件列表
 const components = [
@@ -21,5 +21,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
 export default {
-  install
+  install, // 全局
+  Button,
 }

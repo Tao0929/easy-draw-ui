@@ -1,6 +1,7 @@
 module.export = {
   title: 'easyDraw',
   description: 'vue3的ui库,让前端人员可以快速开发',
+  base: '/easy-draw-ui/',
   head: [
     [
       'meta',

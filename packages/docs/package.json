@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.22"
+    "vitepress": "^1.0.0-alpha.22",
+    "easy-draw-ui": "^0.1.4"
   }
 }
