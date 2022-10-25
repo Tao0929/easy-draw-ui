@@ -25,7 +25,7 @@ git commit -m 'deploy'
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
 git config receive.denyCurrentBranch ignore
-ssh-keygen -t rsa -C 878499007@qq.com
+# ssh-keygen -t rsa -C 878499007@qq.com
 git push -f git@github.com:Tao0929/easy-draw-ui.git master:gh-pages
 
 cd -
