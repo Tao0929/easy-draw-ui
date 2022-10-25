@@ -18,4 +18,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: cd packages/docs/ && npm install && npm run docs:build && cd .vitepress/dist && git init && git add -A && git commit -m 'deploy' && git push -f git@github.com:tao0929/easy-draw-ui.git main:gh-pages
+    - run: cd packages/docs/ 
+    - run: npm install 
+    - run: npm run docs:build
+    - run: cd .vitepress/dist
+    - run: git init 
+    - run: git add -A 
+    - run: git commit -m 'deploy'
+    - run: git push -f git@github.com:tao0929/easy-draw-ui.git main:gh-pages
