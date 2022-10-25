@@ -6,9 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
     strategy:
       matrix:
         node-version: [ 16.x]
@@ -22,7 +19,7 @@ jobs:
         cache: 'npm'
     - run: pwd
     - run: ls
-    - run: cd packages/docs
+    - run: cd /
     - run: pwd
     - run: ls
     - run: npm install
