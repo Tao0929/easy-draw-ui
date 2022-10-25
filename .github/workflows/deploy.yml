@@ -6,6 +6,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     strategy:
       matrix:
         node-version: [ 16.x]
@@ -17,16 +20,15 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-      run: |
-        pwd
-        ls
-        cd packages/docs
-        pwd
-        ls
-        npm install
-        npm run docs:build
-        cd .vitepress/dist
-        git init 
-        git add -A 
-        git commit -m 'deploy'
-        git push -f git@github.com:Tao0929/easy-draw-ui.git main:gh-pages
+    - run: pwd
+    - run: ls
+    - run: cd packages/docs
+    - run: pwd
+    - run: ls
+    - run: npm install
+    - run: npm run docs:build
+    - run: cd .vitepress/dist
+    - run: git init 
+    - run: git add -A 
+    - run: git commit -m 'deploy'
+    - run: git push -f git@github.com:Tao0929/easy-draw-ui.git main:gh-pages
