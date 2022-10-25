@@ -14,7 +14,8 @@ cd .vitepress/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
-
+git config --global user.email 878499007@qq.com
+git config --global user.name Tao0929
 git init
 git add -A
 git commit -m 'deploy'
@@ -23,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:tao0929/easy-draw-ui.git main:gh-pages
+git push -f git@github.com:Tao0929/easy-draw-ui.git main:gh-pages
 
 cd -
