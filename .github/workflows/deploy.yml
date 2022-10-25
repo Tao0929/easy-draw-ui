@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: sh .deploy.sh
+    - run: sh deploy.sh
     # - run: ls
     # - run: cd docs
     # - run: pwd
