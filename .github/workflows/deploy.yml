@@ -19,9 +19,8 @@ jobs:
         cache: 'npm'
     - run: pwd
     - run: ls -al
-    - run: cd packages/docs/ 
+    - run: cd packages/docs
     - run: pwd
-    - run: ls -al
     - run: npm install
     - run: npm run docs:build
     - run: cd .vitepress/dist
