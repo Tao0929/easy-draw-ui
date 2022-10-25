@@ -17,10 +17,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd packages/docs/ 
     - run: pwd
     - run: ls -al
-    - run: npm install 
+    - run: cd ./packages/docs/ 
+    - run: npm install
     - run: npm run docs:build
     - run: cd .vitepress/dist
     - run: git init 
