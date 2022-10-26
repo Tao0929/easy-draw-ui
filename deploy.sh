@@ -27,10 +27,12 @@ git commit -m 'deploy'
 # git config receive.denyCurrentBranch ignore
 
 ssh-keygen -t rsa -C 878499007@qq.com
-eval `/n`
-eval `/n`
-eval `/n`
-eval `/n`
+expect -c "
+    spawn $command;
+    expect {
+        \"Enter file in which to save the key (/home/runner/.ssh/id_rsa):\" {send \"\r\"; exp_continue}
+        }
+    "
 ssh -v git@github.com
 ssh-agent -s
 eval `ssh-agent -s`
