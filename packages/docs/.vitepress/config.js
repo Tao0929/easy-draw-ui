@@ -1,4 +1,4 @@
-module.export = {
+export default {
   title: 'easyDraw',
   description: 'vue3的ui库,让前端人员可以快速开发',
   base: '/easy-draw-ui/',
@@ -13,10 +13,6 @@ module.export = {
     ],
     ['meta', { name: 'keywords', content: 'easy draw ui' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-  ],
-  headers: [
-    { level: 1, title: '123', slug: 'site' },
-    { level: 2, title: '123', slug: '123' },
   ],
   themeConfig: {
     logo: '/images/vue.svg',
