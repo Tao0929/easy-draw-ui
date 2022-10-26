@@ -1,6 +1,6 @@
 export default {
-  title: 'easyDraw',
-  description: 'vue3的ui库,让前端人员可以快速开发',
+  title: 'EasyDrawUI',
+  description: '基于vue3的ui库,让前端人员可以快速开发交付ui',
   base: '/easy-draw-ui/',
   head: [
     [
@@ -11,11 +11,11 @@ export default {
           'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no',
       },
     ],
-    ['meta', { name: 'keywords', content: 'easy draw ui' }],
+    ['meta', { name: 'keywords', content: 'easy draw ui 轻松画出你的ui界面！！' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   themeConfig: {
-    logo: '/images/vue.svg',
+    logo: '/images/sitelogo.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-PRESENT easyDraw and easyDraw contributors'
@@ -25,10 +25,10 @@ export default {
       indexName: '首页名称'
     },
     nav: [
-      { text: '指南', link: '/guide/design' },
+      { text: '指南', link: '/guide/index' },
       { text: '组件', link: '/component/button' }
     ],
-    socialLinks: [{ icon: 'github', link: 'https://www.baidu.com' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Tao0929' }],
     navbar: {
       title: '123'
     },
@@ -36,10 +36,10 @@ export default {
       '/guide/': [],
       '/component/': [
         {
-          text: '基础',
+          text: '基础组件',
           items: [
             {
-              text: '按钮-button',
+              text: '按钮-Button',
               link: '/component/button'
             }
           ]

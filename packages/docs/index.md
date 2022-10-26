@@ -2,16 +2,16 @@
 layout: home
 
 hero:
-  name: EasyDraw
+  name: EasyDrawUI
   text:
-  tagline: 基于 Vue 3，让前端人员简简单单画UI！！
+  tagline: 基于 Vue 3，让前端人员简简单单画UI！！！
   actions:
     - theme: brand
       text: 什么是 Easy Draw?
-      link: /articles/组件库环境搭建
+      link: /guide/index
     - theme: alt
       text: 快速开始
-      link: /component/button
+      link: /articles/组件库环境搭建
 
 features:
   - icon: ⚡️
