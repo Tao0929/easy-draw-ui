@@ -26,17 +26,6 @@ git commit -m 'deploy'
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
 # git config receive.denyCurrentBranch ignore
 
-command = "ssh-keygen -t rsa -C 878499007@qq.com"
-expect -c "
-    spawn $command;
-    expect {
-        \"Enter file in which to save the key (/home/runner/.ssh/id_rsa):\" {send \"\r\"; exp_continue}
-        }
-    "
-ssh -v git@github.com
-ssh-agent -s
-eval `ssh-agent -s`
-ssh-add ~/.ssh/id_rsa
 git push -f git@github.com:Tao0929/easy-draw-ui.git master:gh-pages
 
 cd -
