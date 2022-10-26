@@ -27,11 +27,10 @@ git commit -m 'deploy'
 # git config receive.denyCurrentBranch ignore
 
 ssh-keygen -t rsa -C 878499007@qq.com
-/n
-/n
-/n
-/n
-/n
+eval `/n`
+eval `/n`
+eval `/n`
+eval `/n`
 ssh -v git@github.com
 ssh-agent -s
 eval `ssh-agent -s`
