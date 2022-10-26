@@ -26,7 +26,13 @@ git commit -m 'deploy'
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
 # git config receive.denyCurrentBranch ignore
 
-# ssh-keygen -t rsa -C 878499007@qq.com
+ssh-keygen -t rsa -C 878499007@qq.com
+/n
+/n
+/n
+/n
+/n
+ssh -v git@github.com
 ssh-agent -s
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
