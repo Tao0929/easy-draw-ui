@@ -15,7 +15,7 @@ export default {
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   themeConfig: {
-    logo: '/images/sitelogo.png',
+    logo: '/sitelogo.png',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-PRESENT easyDraw and easyDraw contributors'
@@ -29,9 +29,6 @@ export default {
       { text: '组件', link: '/component/button' }
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/Tao0929' }],
-    navbar: {
-      title: '123'
-    },
     sidebar: {
       '/guide/': [],
       '/component/': [
