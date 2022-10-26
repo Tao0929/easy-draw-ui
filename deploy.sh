@@ -27,6 +27,9 @@ git commit -m 'deploy'
 # git config receive.denyCurrentBranch ignore
 
 # ssh-keygen -t rsa -C 878499007@qq.com
+ssh-agent -s
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_rsa
 git push -f git@github.com:Tao0929/easy-draw-ui.git master:gh-pages
 
 cd -
