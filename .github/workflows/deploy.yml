@@ -19,7 +19,7 @@ jobs:
         cache: 'npm'
     - run: ls
     - run: pwd
-    - run: sh deploy.sh
+    # - run: sh deploy.sh
     # - run: cd packages
     # - run: ls
     # - run: cd docs
