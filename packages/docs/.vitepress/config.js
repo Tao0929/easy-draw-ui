@@ -11,7 +11,7 @@ export default {
           'width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no',
       },
     ],
-    ['meta', { name: 'keywords', content: 'easy draw ui 轻松画出你的ui界面！！' }],
+    ['meta', { name: 'keywords', content: 'easy draw ui 轻松画出你的ui界面!!!' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   themeConfig: {
@@ -36,7 +36,7 @@ export default {
           text: '基础组件',
           items: [
             {
-              text: '按钮-Button',
+              text: '按钮组件-Button',
               link: '/component/button'
             }
           ]
