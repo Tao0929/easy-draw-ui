@@ -20,6 +20,7 @@ jobs:
     - run: ls
     # - run: sh deploy.sh
     - run: cd packages
+    - run: ls
     - run: cd docs
     - run: ls
     - run: npm install
