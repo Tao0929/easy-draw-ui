@@ -19,8 +19,7 @@ jobs:
         cache: 'npm'
     - run: ls
     # - run: sh deploy.sh
-    - run: cd packages/docs/
-    - run: pwd
+    - run: cd packages/docs
     - run: ls
     - run: npm install
     - run: npm run docs:build
