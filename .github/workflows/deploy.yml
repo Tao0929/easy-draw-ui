@@ -19,15 +19,15 @@ jobs:
         cache: 'npm'
     - run: ls
     - run: pwd
-    # - run: sh deploy.sh
-    - run: cd packages
-    - run: ls
-    - run: cd docs
-    - run: ls
-    - run: npm install
-    - run: npm run docs:build
-    - run: cd .vitepress/dist
-    - run: git init 
-    - run: git add -A 
-    - run: git commit -m 'deploy'
-    - run: git push -f git@github.com:Tao0929/easy-draw-ui.git main:gh-pages
+    - run: sh deploy.sh
+    # - run: cd packages
+    # - run: ls
+    # - run: cd docs
+    # - run: ls
+    # - run: npm install
+    # - run: npm run docs:build
+    # - run: cd .vitepress/dist
+    # - run: git init 
+    # - run: git add -A 
+    # - run: git commit -m 'deploy'
+    # - run: git push -f git@github.com:Tao0929/easy-draw-ui.git main:gh-pages
